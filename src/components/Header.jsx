@@ -21,7 +21,7 @@ const Header = () => {
     const isMatch = useMediaQuery(theme.breakpoints.down("md"));
     return (
         <React.Fragment>
-            <AppBar sx={{ background: "#063970" }}>
+            <AppBar sx={{ background: "#F67280  " }}>
                 <Toolbar>
                     <FoodBankIcon fontSize="large" />
                     {isMatch ? (
@@ -47,8 +47,14 @@ const Header = () => {
                                 ))}
                             </Tabs>
 
-                            <Button variant="contained">Login</Button>
-                            <Button sx={{ marginLeft: 2 }} variant="contained">
+                            <Button color="secondary" variant="outlined">
+                                Login
+                            </Button>
+                            <Button
+                                sx={{ marginLeft: 2 }}
+                                color="secondary"
+                                variant="outlined"
+                            >
                                 Sign up
                             </Button>
                         </>
