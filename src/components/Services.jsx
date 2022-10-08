@@ -11,7 +11,7 @@ import {
 
 const Services = () => {
     return (
-        <>
+        <Box sx={{ height: "100vh" }}>
             <Typography
                 gutterBottom
                 sx={{
@@ -120,7 +120,7 @@ const Services = () => {
                     </CardActions>
                 </Card>
             </Box>
-        </>
+        </Box>
     );
 };
 
