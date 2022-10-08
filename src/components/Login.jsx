@@ -31,36 +31,38 @@ const Login = () => {
                     </Avatar>
                     <h2>Login </h2>
                 </Grid>
-                <TextField
-                    label="Username"
-                    placeholder="Enter username"
-                    fullWidth
-                    required
-                />
-                <TextField
-                    sx={{ marginTop: "5%" }}
-                    label="Password"
-                    placeholder="Enter password"
-                    type="password"
-                    fullWidth
-                    required
-                />
-                <FormControlLabel
-                    control={<Checkbox name="checked8" color="primary" />}
-                    label="Remember me"
-                />
-                <Button
-                    sx={{ marginBottom: "5%" }}
-                    type="submit"
-                    color="secondary"
-                    variant="contained"
-                    fullWidth
-                >
-                    Login
-                </Button>
-                <Typography>
-                    <Link href="#">Forgot password?</Link>
-                </Typography>
+                <form>
+                    <TextField
+                        label="Username"
+                        placeholder="Enter username"
+                        fullWidth
+                        required
+                    />
+                    <TextField
+                        sx={{ marginTop: "5%" }}
+                        label="Password"
+                        placeholder="Enter password"
+                        type="password"
+                        fullWidth
+                        required
+                    />
+                    <FormControlLabel
+                        control={<Checkbox name="checked8" color="primary" />}
+                        label="Remember me"
+                    />
+                    <Button
+                        sx={{ marginBottom: "5%" }}
+                        type="submit"
+                        color="secondary"
+                        variant="contained"
+                        fullWidth
+                    >
+                        Login
+                    </Button>
+                    <Typography>
+                        <Link href="#">Forgot password?</Link>
+                    </Typography>
+                </form>
             </Paper>
         </Grid>
     );
