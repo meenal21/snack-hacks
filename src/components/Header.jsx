@@ -47,13 +47,18 @@ const Header = () => {
                                 ))}
                             </Tabs>
 
-                            <Button color="secondary" variant="outlined">
+                            <Button
+                                color="secondary"
+                                variant="outlined"
+                                href="/login"
+                            >
                                 Login
                             </Button>
                             <Button
                                 sx={{ marginLeft: 2 }}
                                 color="secondary"
                                 variant="outlined"
+                                href="/signup"
                             >
                                 Sign up
                             </Button>
