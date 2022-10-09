@@ -102,7 +102,7 @@ Any additional information goes here
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Usage/Examples
