@@ -19,7 +19,7 @@ const Signup = () => {
     };
 
     return (
-        <Grid sx={{ marginTop: "6%" }}>
+        <Grid sx={{ paddingTop: "4rem", paddingBottom: "2rem" }}>
             <Paper elevation={10} style={paperStyle}>
                 <Grid align="center">
                     <Avatar sx={{ backgroundColor: "#F67280" }}>

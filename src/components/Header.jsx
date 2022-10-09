@@ -29,7 +29,7 @@ const Header = () => {
                             <Typography
                                 sx={{ fontSize: "1.5rem", paddingLeft: "10%" }}
                             >
-                                Food Bank
+                                Food Share
                             </Typography>
                             <DrawerHead />
                         </>
@@ -42,9 +42,10 @@ const Header = () => {
                                 onChange={(e, value) => setValue(value)}
                                 indicatorColor="white"
                             >
-                                {pages.map((page, index) => (
-                                    <Tab key={index} label={page} />
-                                ))}
+                                <Tab key={0} label="Home" href="/" />
+                                <Tab key={1} label="Services" />
+                                <Tab key={2} label="Contact" />
+                                <Tab key={3} label="About" />
                             </Tabs>
 
                             <Button
