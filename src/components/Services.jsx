@@ -11,6 +11,7 @@ import {
 
 const Services = () => {
     return (
+        
         <Box sx={{ height: "100vh" }}>
             <Typography
                 gutterBottom
@@ -78,7 +79,7 @@ const Services = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button>Try now</Button>
+                        <Button href="/providerpage">Sign In</Button>
                     </CardActions>
                 </Card>
 
@@ -121,6 +122,7 @@ const Services = () => {
                 </Card>
             </Box>
         </Box>
+        
     );
 };
 

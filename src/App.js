@@ -3,6 +3,7 @@ import Services from "./components/Services";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
+import DrawerAppBar from "./components/ProviderPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
@@ -26,8 +27,10 @@ function App() {
                         }
                     />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/providerpage" element={<DrawerAppBar />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/dashboard" element={<Dashboard />} />
+                    
                 </Routes>
             </BrowserRouter>
         </div>
