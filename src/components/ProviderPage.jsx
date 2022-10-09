@@ -18,7 +18,7 @@ const center = {lat: 18.944941, lng: 72.825699};
 function DrawerAppBar(props) {
 
   const {isLoaded} = useJsApiLoader({
-    googleMapsApiKey: "***REMOVED***",
+    googleMapsApiKey: "",
     libraries: ["places"]
   })
   if(!isLoaded){
