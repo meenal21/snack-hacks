@@ -7,7 +7,7 @@ We have made a website to connect event organizers who have an abundance of food
  
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/247/282/datas/original.png)
 
 
 ## Acknowledgements
