@@ -3,7 +3,7 @@
 
 This project is a result of the most fundamental demand of today's time, the effort to be sustainable. It is an attempt to connect the downtrodden with the ones who have it in abundance. Our team of hackers came together to find a definitive solution to the problem of wastage of food in events and to connect both the parties.
 
-We have made a wesite to connect event organisers who have an abundance of food with the people who are straving(with(out) the intervention of NGOs).
+We have made a website to connect event organizers who have an abundance of food with the people who are starving(with(out) the intervention of NGOs).
  
 
 
