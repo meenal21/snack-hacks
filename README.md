@@ -89,7 +89,7 @@ Any additional information goes here
 
 - [@SafeTopedo](https://github.com/SafeTorpedo)
 - [@meenal21](https://github.com/meenal21)
-- [@Klaus](https://github.com/)
+- [@KlausMikhaelson](https://github.com/KlausMikhaelson)
 - [@SwelteringCity](https://github.com/SwelteringCity)
 
 
