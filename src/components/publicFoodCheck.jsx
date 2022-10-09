@@ -15,7 +15,7 @@ const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
 const center = {lat: 18.944941, lng: 72.825699};
 
-function DrawerAppBar(props) {
+function PublicFoodCheck(props) {
 
   const {isLoaded} = useJsApiLoader({
     googleMapsApiKey: "***REMOVED***",
@@ -77,7 +77,7 @@ function DrawerAppBar(props) {
   );
 }
 
-DrawerAppBar.propTypes = {
+PublicFoodCheck.propTypes = {
   /**
    * Injected by the documentation to work in an iframe.
    * You won't need it on your project.
@@ -85,4 +85,4 @@ DrawerAppBar.propTypes = {
   window: PropTypes.func,
 };
 
-export default DrawerAppBar;
+export default PublicFoodCheck;
