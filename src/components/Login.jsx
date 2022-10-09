@@ -23,7 +23,7 @@ const Login = () => {
     };
 
     return (
-        <Grid sx={{ marginTop: "10%" }}>
+        <Grid sx={{ paddingTop: "5rem" }}>
             <Paper elevation={10} style={paperStyle}>
                 <Grid align="center">
                     <Avatar sx={{ backgroundColor: "#F67280" }}>
