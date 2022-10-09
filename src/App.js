@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Dashboard from "./components/Dashboard";
+import PublicFoodCheck from "./components/publicFoodCheck";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -43,6 +44,7 @@ function App() {
                     <Route path="/providerpage" element={<DrawerAppBar />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/publicFoodCheck" element={<PublicFoodCheck />} />
                 </Routes>
             </BrowserRouter>
         </div>

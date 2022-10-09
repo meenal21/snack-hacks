@@ -15,7 +15,7 @@ const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Contact'];
 const center = {lat: 18.944941, lng: 72.825699};
 
-function DrawerAppBar(props) {
+function PublicFoodCheck(props) {
 
   const {isLoaded} = useJsApiLoader({
     googleMapsApiKey: "",
@@ -37,30 +37,19 @@ function DrawerAppBar(props) {
       justifyContent="center"
       alignItems="center"
       minHeight="10vh">
-        <Box display='flex'
-            justifyContent="center"
-            alignItems="center">
-        <Typography sx={{ fontSize: 18 }} color="text.secondary" gutterBottom>
-              Enter the Amount of Food:     
-            </Typography>
-            <TextField id="outlined-basic" label="Food in Kilos" variant="outlined" />
-        </Box>
+       
         <Box display='flex' marginTop= '1%' 
             justifyContent="center"
             alignItems="center">
             <Typography sx={{ fontSize: 18 }} color="text.secondary" gutterBottom>
-              Enter your Location:    
+              Check out the Food Availability Here!!!  
             </Typography>
-            <Autocomplete>
-            <TextField id="outlined-basic"  variant="outlined" />
-            </Autocomplete>
             </Box>
       </Box>
-      <Button> Submit </Button>
       <Box component="main" sx={{height: "100vh", height:"100vh"}} marginRight='1%' marginLeft='1%' marginTop='1%'>
         <GoogleMap 
         center= {center} 
-        zoom={16} 
+        zoom={18} 
         mapContainerStyle={{width:'100%', height:'100%'}}
         options={{
             zoomControl: false,
@@ -71,6 +60,10 @@ function DrawerAppBar(props) {
         }}
         >
             <MarkerF position={center} />
+            <MarkerF position={{lat: 18.94456, lng: 72.825699}} />
+            <MarkerF position={{lat: 18.94234, lng: 72.82765}} />
+            <MarkerF position={{lat: 18.94508, lng: 72.82254}} />
+            <MarkerF position={{lat: 18.944934, lng: 72.8287}} />
             { }
         </GoogleMap>
       </Box>
@@ -78,7 +71,7 @@ function DrawerAppBar(props) {
   );
 }
 
-DrawerAppBar.propTypes = {
+PublicFoodCheck.propTypes = {
   /**
    * Injected by the documentation to work in an iframe.
    * You won't need it on your project.
@@ -86,4 +79,4 @@ DrawerAppBar.propTypes = {
   window: PropTypes.func,
 };
 
-export default DrawerAppBar;
+export default PublicFoodCheck;
